@@ -3,7 +3,7 @@
 }
 
 .font-quote {
- font: 700 3rem/1.25 'Merriweather', sans-serif;
+ font: 700 3rem/1.25 'Merriweather', serif;
 }
 
 .font-1-g {
@@ -30,8 +30,12 @@
  font: 500 1.125rem/0.75 'Poppins', sans-serif;
 }
 
+.font-1-mm-b {
+ font: 500 1rem/0.75 'Poppins', sans-serif;
+}
+
 .font-2-m {
- font: 500 1.125rem/1.5 'Roboto', sans-serif;
+ font: 400 1.125rem/1.5 'Roboto', sans-serif;
 }
 
 .font-2-mm {
@@ -43,6 +47,10 @@
   font-size: 3rem;
  }
 
+ .font-quote {
+  font-size: 3rem;
+ }
+
  .font-2-p-b {
   font-size: 1.125rem;
  }
@@ -51,6 +59,10 @@
 @media (max-width:800px) {
  .font-1-gg {
   font-size: 2rem;
+ }
+
+ .font-quote {
+  font-size: 1.5rem;
  }
 
  .font-1-g {
