@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@100;200;400;500;700&family=Roboto:wght@400;500&display=swap');
 /* ========== ELEMENTOS E PSEUDOELEMENTOS ========== */
 
 body {
@@ -7,7 +7,7 @@ body {
  padding-bottom: 600px;
 }
 
-h1, h2, h3, h4, ul, li, p {
+h1, h2, h3, h4, ul, li, p, blockquote {
  margin: 0px;
 }
 

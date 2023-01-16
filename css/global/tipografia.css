@@ -2,8 +2,12 @@
  font: 700 4rem/1.125 'Poppins', sans-serif;
 }
 
+.font-quote {
+ font: 700 3rem/1.25 'Merriweather', sans-serif;
+}
+
 .font-1-g {
- font: 600 1.5rem/0.6 'Poppins', sans-serif;
+ font: 600 1.5rem/1.5 'Poppins', sans-serif;
 }
 
 .font-1-p {
@@ -27,7 +31,11 @@
 }
 
 .font-2-m {
- font: 500 1.125rem/1.5'Roboto', sans-serif;
+ font: 500 1.125rem/1.5 'Roboto', sans-serif;
+}
+
+.font-2-mm {
+ font: 500 1rem/1.5 'Roboto', sans-serif;
 }
 
 @media (max-width:1200px) {
