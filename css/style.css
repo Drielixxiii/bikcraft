@@ -14,3 +14,6 @@
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
 @import "./home/seguros.css";
+
+/* ===== TERMOS ===== */
+@import "./termos/termos.css";
