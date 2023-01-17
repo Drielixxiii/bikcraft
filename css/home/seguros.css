@@ -41,14 +41,29 @@
  grid-column: 1/-1;
 }
 
+.seguros-item li {
+ display: flex;
+ align-content: center;
+ position: relative;
+}
+
 .seguros-item li+li {
  margin-top: 20px;
 }
 
 .seguros-item li::before {
  content: '';
- display: block;
- width: 13px;
- height: 9px;
+ display: inline-block;
+ width: 21px;
+ height: 18px;
  background-image: url(../../img/details/yellow-checkin.svg);
+ position: absolute;
+ left: -28px;
+ top: 5px;
+}
+
+@media (max-width:800px){
+ .seguros{
+  grid-template-columns: 1fr;
+ }
 }
