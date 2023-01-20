@@ -45,7 +45,7 @@
  margin-left: 12px;
  margin-right: 12px;
  transition: .2s;
- background-image: url('../img/yellow-icons/seta.svg');
+ background-image: url(''../../img/yellow-icons/seta.svg');
 }
 
 .botao.seta:hover::after {
