@@ -1,0 +1,64 @@
+.perguntas {
+ --padding: 120px;
+ padding-top: var(--padding);
+ padding-bottom: var(--padding);
+}
+
+.perguntas h2 {
+ margin-bottom: 60px;
+}
+
+.perguntas dl>div {
+ padding: 20px;
+ border-radius: 5px;
+}
+
+.perguntas dl>div:nth-child(odd) {
+ background-color: var(--cor-1);
+}
+
+.perguntas dt {
+ cursor: pointer;
+ display: grid;
+ grid-template-columns: auto 1fr auto;
+ align-items: center;
+ gap: 8px;
+}
+
+.perguntas dt::before {
+ content: '';
+ display: inline-block;
+ width: 12px;
+ height: 8px;
+ background: var(--cor-p1);
+ border-radius: 2px;
+}
+
+.perguntas dt::after {
+ content: '';
+ display: inline-block;
+ width: 14px;
+ height: 8px;
+ background: url('/img/details/arrow.svg');
+ transition: .3s;
+}
+
+.perguntas dt:hover::after {
+ transform: rotate(180deg);
+}
+
+.perguntas dd {
+ padding-left: 20px;
+ padding-top: 12px;
+ max-width: 80ch;
+}
+
+@media (max-width:800px) {
+ .perguntas {
+  --padding: 60px;
+ }
+
+ .perguntas h2 {
+  margin-bottom: 40px;
+ }
+}
