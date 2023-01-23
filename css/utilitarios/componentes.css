@@ -21,6 +21,8 @@
  font-weight: 600;
  line-height: 1.3;
  max-width: max-content;
+ border: none;
+ cursor: pointer;
 }
 
 .botao:hover {

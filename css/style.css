@@ -6,6 +6,8 @@
 
 /* ===== UTILIDADES ===== */
 @import "./utilitarios/componentes.css";
+@import "./utilitarios/formulario.css";
+
 
 /* ===== HOME ===== */
 @import "./home/introducao.css";
@@ -27,6 +29,10 @@
 @import "./seguros/perguntas.css";
 
 
-/* ===== BICICLETA PAGINA ESPECÍFICA===== */
+/* ===== BICICLETA PAGINA ESPECÍFICA ===== */
 @import "./bicicleta/bicicleta.css";
 @import "./bicicleta/seguro.css";
+
+/* ===== CONTATO ===== */
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
