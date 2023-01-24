@@ -18,6 +18,7 @@
 .seguro-conteudo {
  padding-top: 180px;
  padding-bottom: 180px;
+ background: url('../../img/deco/bottom-right-yellow.svg') no-repeat bottom 130px right 20px;
 }
 
 .seguro-conteudo p {
@@ -38,6 +39,7 @@
   grid-row: 1;
   padding-top: 40px;
   padding-bottom: 0;
+  background: none;
  }
 
  .seguro-imagem img {

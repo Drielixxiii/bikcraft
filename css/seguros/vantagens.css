@@ -1,11 +1,14 @@
 .vantagens-bg {
  background-color: var(--cor-12);
  --padding: 120px;
+ background: var(--cor-11) url('../../img/deco/botton-left.svg') no-repeat bottom 20px left 20px;
+
 }
 
 .vantagens {
  padding-top: var(--padding);
  padding-bottom: var(--padding);
+
 }
 
 .vantagens h2 {
