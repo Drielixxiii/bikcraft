@@ -9,6 +9,9 @@
     <link rel="preload" href="css/style.css" as="style" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Contatos | Bikcraft</title>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
 
   <body id="contato">
@@ -36,7 +39,7 @@
       </div>
 
       <div class="contato-bg">
-        <div class="contato container">
+        <div class="contato container fadeInDown" data-anime="200">
           <section class="contato-dados" aria-label="Endereço">
             <h2 class="font-1-g cor-0">Loja online</h2>
             <div class="contato-endereco font-2-p cor-4">
@@ -218,6 +221,7 @@
         </p>
       </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
